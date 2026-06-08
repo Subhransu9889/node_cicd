@@ -1,0 +1,19 @@
+{
+  "name": "poc_cicd",
+  "version": "1.0.0",
+  "description": "cicd workflow",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Subransu",
+    "cicd"
+  ],
+  "author": "Subransu Sekhar Maharana",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
