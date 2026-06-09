@@ -5,7 +5,10 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 app.get("/", (req, res) => {
-    res.send("Server is running healthy.")
+    res.status(200).json({
+        message: "Server is running successfully",
+        version: "v1.0.0"
+    });
 })
 
 app.listen(PORT, () => {
