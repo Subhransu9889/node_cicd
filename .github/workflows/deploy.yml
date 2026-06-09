@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy on ExCloud
-        uses: excloud/ssh-action@v1.0.2
+        uses: appleboy/ssh-action@v1.0.3
         with:
           host: 210.79.129.39
           username: ubuntu
